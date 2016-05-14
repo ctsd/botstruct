@@ -1,0 +1,24 @@
+{
+  "name": "botstruct",
+  "version": "1.0.0",
+  "description": "NodeJS/Express module to build chat bots easily",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctsd/botstruct.git"
+  },
+  "keywords": [
+    "bot",
+    "chat",
+    "tool"
+  ],
+  "author": "ctsd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ctsd/botstruct/issues"
+  },
+  "homepage": "https://github.com/ctsd/botstruct"
+}
