@@ -21,7 +21,7 @@
     "url": "https://github.com/ctsd/botstruct/issues"
   },
   "homepage": "https://github.com/ctsd/botstruct",
-  "devDependencies": {
+  "dependencies": {
     "body-parser": "^1.15.1",
     "express": "^4.13.4",
     "request": "^2.72.0"
