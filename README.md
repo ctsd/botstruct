@@ -4,6 +4,12 @@ NodeJS library providing tools to create chat bots. Built to integrate with Expr
 
 ⚠️ This project is still under development
 
+## INSTALL
+You can install the package through npm:
+```
+npm install https://github.com/ctsd/botstruct.git
+```
+
 ## TODO
 + Tests
 + More inputs/outputs (Wechat/Slack/more...)
