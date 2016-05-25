@@ -29,8 +29,8 @@ var rules = [
           ],
         }
       ],
-      trigger: function (parameters, helper, sender) {
-        var str = "Sure, that's the phone we've got: " + parameters[0].value.phone;
+      trigger: function (session, helper, sender) {
+        var str = "Sure, that's the phone we've got: " + session.parameters['name'].phone;
         IOs.send(str, helper, sender);
       },
     }
@@ -55,6 +55,10 @@ botstruct.init(app, ios, rules);
 ## TODO
 + Tests
 + More inputs/outputs (Wechat/Slack/more...)
-+ Commands that can execute along multiple messages for more interaction
-+ More type of parameters
-+ Storing in database
++ More parameters types
++ Different database types
++ Schedule events
++ Set custom messages
++ Facebook structured responses
++ Help message
++ Ask confirmation
