@@ -58,7 +58,7 @@ botstruct.init(app, ios, rules);
 + More parameters types
 + Different database types
 + Schedule events
-+ Set custom messages
 + Facebook structured responses
 + Help message
 + Ask confirmation
++ Stop command process
