@@ -1,8 +1,14 @@
-# botstruct
+# Bot building library
 ![alt tag](http://ctsd.github.io/img/botstruct.png)
+
 NodeJS library providing tools to create chat bots. Built to integrate with Express framework.
 
-⚠️ This project is still under development
+When I was discovering about chat bots (and I was especially more interested by Facebook Messenger ones), I quickly felt the need to abstract message sending and receiving.
+
+So I built this mini-library, meant to work with Messenger, but which had a capability to extend to other input/output.
+
+Afterwards, I discovered [Botkit](https://github.com/howdyai/botkit) , which provided (kinda) the same needs.
+
 
 ## INSTALL
 You can install the package through npm:
@@ -51,14 +57,3 @@ var ios = [
 
 botstruct.init(app, ios, rules);
 ```
-
-## TODO
-+ Tests
-+ More inputs/outputs (Wechat/Slack/more...)
-+ More parameters types
-+ Different database types
-+ Schedule events
-+ Facebook structured responses
-+ Help message
-+ Ask confirmation
-+ Stop command process
